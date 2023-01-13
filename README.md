@@ -8,5 +8,5 @@ It works by:
 5. It uses a Flann-basd matcher to match keypoints in the baseline and target images.
 6. It finds the centroids of the matched keypoints to find the objects' locations. It marks these locations in red.
 
-Here is a sample output. 3 of the 4 detections are correct.
+Here is a sample output. The image on the left is the baseline image with the object's keyponts. The image on the right is the image being detected. 3 of the 4 detections are correct.
 ![Sample Output](./output.png)
