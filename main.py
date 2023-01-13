@@ -82,15 +82,15 @@ def detect_object(object_to_detect_keypoints, object_to_detect_descriptors, img,
         cv.imshow(draw_title, matches_img)
         cv.waitKey()
 
-bkg_img = resize_image(cv.imread("/home/jonathan/Downloads/IMG_BKG.JPG"))[100:400, 80:400]
+bkg_img = resize_image(cv.imread("./IMG_BKG.JPG"))[100:400, 80:400]
 
-all_img = resize_image(cv.imread("/home/jonathan/Downloads/IMG_ALL.JPG"))[109:409, 77:397]
+all_img = resize_image(cv.imread("./IMG_ALL.JPG"))[109:409, 77:397]
 
-img_1 = resize_image(cv.imread("/home/jonathan/Downloads/IMG_1.JPG"))[100:400, 80:400]
-img_2 = resize_image(cv.imread("/home/jonathan/Downloads/IMG_2.JPG"))[100:400, 80:400]
-img_3 = resize_image(cv.imread("/home/jonathan/Downloads/IMG_3.JPG"))[100:400, 80:400]
-img_4 = resize_image(cv.imread("/home/jonathan/Downloads/IMG_4.JPG"))[100:400, 80:400]
-img_5 = resize_image(cv.imread("/home/jonathan/Downloads/IMG_5.JPG"))[100:400, 80:400]
+img_1 = resize_image(cv.imread("./IMG_1.JPG"))[100:400, 80:400]
+img_2 = resize_image(cv.imread("./IMG_2.JPG"))[100:400, 80:400]
+img_3 = resize_image(cv.imread("./IMG_3.JPG"))[100:400, 80:400]
+img_4 = resize_image(cv.imread("./IMG_4.JPG"))[100:400, 80:400]
+img_5 = resize_image(cv.imread("./IMG_5.JPG"))[100:400, 80:400]
 
 cv.imshow("Background", bkg_img)
 
